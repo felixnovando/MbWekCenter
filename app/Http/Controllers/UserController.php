@@ -99,7 +99,6 @@ class UserController extends Controller
         ];
 
         if(Auth::attempt($credentials, $remember)){
-            Session::put('mySession', $credentials);
             return redirect('/');
         }else{
             return redirect()->back()->withErrors(['error'=>'Wrong Email or Password']);
