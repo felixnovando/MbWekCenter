@@ -24,5 +24,9 @@
 </div>
 
 
-
+<div>
+    <h5>Special Thx to</h5>
+    <p>1. Edric Elsen, team member</p>
+    <p>2. Martin Wijaya (MW20-1), casemaker</p>
+</div>
 
